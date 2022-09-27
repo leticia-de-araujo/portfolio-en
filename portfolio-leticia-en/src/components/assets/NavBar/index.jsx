@@ -49,7 +49,7 @@ const NavBar = () => {
               sx={{ fontSize: "1rem" }}
               onClick={handleDrawerToggle}
             >
-              Projetos
+              Projects
             </Button>
           </Link>
         </li>
@@ -60,7 +60,7 @@ const NavBar = () => {
               sx={{ fontSize: "1rem" }}
               onClick={handleDrawerToggle}
             >
-              Sobre
+              About me
             </Button>
           </Link>
         </li>
@@ -77,7 +77,7 @@ const NavBar = () => {
               sx={{ fontSize: "1rem" }}
               onClick={handleDrawerToggle}
             >
-              Contato
+              Contact
             </Button>
           </Link>
         </li>
@@ -133,7 +133,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Projetos
+                    Projects
                   </Button>
                 </Link>
               </li>
@@ -150,7 +150,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Sobre
+                    About me
                   </Button>
                 </Link>
               </li>
@@ -167,7 +167,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Contato
+                    Contact
                   </Button>
                 </Link>
               </li>
