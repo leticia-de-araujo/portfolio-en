@@ -1,22 +1,14 @@
-import styled from "styled-components";
+import * as muiStyles from "@mui/material/styles";
+import { Button } from "@mui/material";
 
-export const StyledButton = styled.button`
+export const StyledButton = muiStyles.styled(Button)`
   position: fixed;
   bottom: 1.25rem;
   right: 1.875rem;
   z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #EB5757;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
+  padding: 5px 3px;
   border-radius: 0.625rem;
-  font-size: 1.25rem;
 
-  i {
-    display: flex;
-  }
 
   &.on {
     opacity: 1;

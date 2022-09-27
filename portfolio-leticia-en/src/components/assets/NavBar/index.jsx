@@ -20,7 +20,8 @@ const NavBar = () => {
       <IconButton
         color="secondary"
         onClick={handleDrawerToggle}
-        sx={{ alignSelf: "flex-start" }}
+        sx={{ alignSelf: "flex-start", minWidth: "4px" }}
+        size="small"
       >
         <CloseIcon />
       </IconButton>
@@ -29,8 +30,9 @@ const NavBar = () => {
           <Link to="home" spy={true} smooth={true} duration={800} offset={-58}>
             <Button
               variant="text"
-              sx={{ fontSize: "1rem" }}
+              sx={{ minWidth: "4px" }}
               onClick={handleDrawerToggle}
+              size="small"
             >
               Home
             </Button>
@@ -46,10 +48,11 @@ const NavBar = () => {
           >
             <Button
               variant="text"
-              sx={{ fontSize: "1rem" }}
+              sx={{ minWidth: "4px" }}
               onClick={handleDrawerToggle}
+              size="small"
             >
-              Projetos
+              Projects
             </Button>
           </Link>
         </li>
@@ -57,10 +60,11 @@ const NavBar = () => {
           <Link to="about" spy={true} smooth={true} duration={800} offset={-58}>
             <Button
               variant="text"
-              sx={{ fontSize: "1rem" }}
+              sx={{ minWidth: "4px" }}
               onClick={handleDrawerToggle}
+              size="small"
             >
-              Sobre
+              About me
             </Button>
           </Link>
         </li>
@@ -74,10 +78,11 @@ const NavBar = () => {
           >
             <Button
               variant="text"
-              sx={{ fontSize: "1rem" }}
+              sx={{ minWidth: "4px" }}
               onClick={handleDrawerToggle}
+              size="small"
             >
-              Contato
+              Contact
             </Button>
           </Link>
         </li>
@@ -133,7 +138,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Projetos
+                    Projects
                   </Button>
                 </Link>
               </li>
@@ -150,7 +155,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Sobre
+                    About me
                   </Button>
                 </Link>
               </li>
@@ -167,7 +172,7 @@ const NavBar = () => {
                     color="secondary"
                     sx={{ fontSize: "1rem" }}
                   >
-                    Contato
+                    Contact
                   </Button>
                 </Link>
               </li>
@@ -191,7 +196,7 @@ const NavBar = () => {
               bgcolor: " #070707",
               boxSizing: "border-box",
               width: "100%",
-              height: "6rem",
+              height: "5rem",
             },
           }}
         >

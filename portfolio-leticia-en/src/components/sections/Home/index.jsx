@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 import ProfilePic from "../../../imgs/social/profilepic.png";
-import { Button, IconButton, SvgIcon } from "@mui/material";
-import LanguageIcon from "@mui/icons-material/Language";
+import { Button, SvgIcon } from "@mui/material";
+import LanguageTwoToneIcon from "@mui/icons-material/LanguageTwoTone";
 import projectsBanner from "../../../imgs/projects/projects.png";
 import NavBar from "../../assets/NavBar";
 import Skills from "../Skills";
@@ -16,13 +16,19 @@ const Home = () => {
     <>
       <NavBar />
       <HomeMainDiv className="home">
-        {/* <Fade bottom duration={1000}>
-        <a href="https://portfolio-leticia.vercel.app/" className="language">
-          <IconButton>
-            EN <LanguageIcon sx={{ fontSize: "0.9rem" }} />
-          </IconButton>
-        </a>
-      </Fade> */}
+        <Fade bottom duration={1000}>
+          <a
+            href="https://portfolio-leticia-pt.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="language"
+          >
+            <Button color="secondary" size="small" variant="text">
+              PT-BR
+              <LanguageTwoToneIcon color="secondary" fontSize="small" />
+            </Button>
+          </a>
+        </Fade>
         <div className="home-text-div">
           <Fade bottom duration={1000}>
             <div className="home-text-top-div">
@@ -31,7 +37,7 @@ const Home = () => {
               </Bounce>
 
               <h1>
-                Olá, me chamo <span className="name">Letícia Araújo</span>
+                Hi, I'm <span className="name">Letícia Araújo</span>
                 <span
                   className="wave-emoji"
                   role="img"
@@ -45,9 +51,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Desenvolvedora Full-Stack",
-                    "Desenvolvedora Front-End",
-                    "Desenvolvedora Back-End",
+                    "Full Stack Developer",
+                    "Front End Developer",
+                    "Back End Developer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -77,8 +83,11 @@ const Home = () => {
                     duration={800}
                     offset={-58}
                   >
-                    <Button variant="contained">
-                      Ver projetos
+                    <Button
+                      variant="contained"
+                      sx={{ textTransform: "capitalize" }}
+                    >
+                      See Projects
                       <ArrowDropDownCircleIcon
                         fontSize="small"
                         style={{

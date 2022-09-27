@@ -50,10 +50,10 @@ export const StyledDiv = styled.div`
     justify-content: center;
     width: 100%;
     gap: 1rem;
-    margin-top: 1rem;
-    z-index: 999;
+    margin-top: 0.5rem;
 
     svg {
+      z-index: 999;
       width: 2.5em;
       height: 2.5rem;
       color: #ffffffe8;

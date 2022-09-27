@@ -109,7 +109,7 @@ export const DivAbout = styled.div`
 
   .kenzie:hover {
     cursor: pointer;
-    color: #eb5757;
+    text-decoration: underline;
   }
 
   .hire-me {
@@ -124,12 +124,12 @@ export const DivAbout = styled.div`
 
   .linkedin:hover {
     cursor: pointer;
-    color: #eb5757;
+    text-decoration: underline;
   }
 
   .email:hover {
     cursor: pointer;
-    color: #eb5757;
+    text-decoration: underline;
   }
 
   .divider-2 {

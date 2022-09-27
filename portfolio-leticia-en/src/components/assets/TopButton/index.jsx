@@ -35,11 +35,12 @@ const TopButton = () => {
     >
       <StyledButton
         className={topButtonVisible ? "on" : "off"}
-        title="Go to top"
+        color="primary"
+        size="small"
+        variant="contained"
+        sx={{ minWidth: "35px" }}
       >
-        <i aria-hidden="true">
-          <ArrowUpwardIcon />
-        </i>
+        <ArrowUpwardIcon fontSize="small" />
       </StyledButton>
     </Link>
   );

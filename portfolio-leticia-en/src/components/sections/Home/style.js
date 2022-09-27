@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HomeMainDiv = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -38,8 +39,6 @@ export const HomeMainDiv = styled.div`
     text-decoration: none;
 
     button {
-      font-size: 0.9rem;
-      color: white;
       display: flex;
       gap: 3px;
       align-items: center;
@@ -59,7 +58,6 @@ export const HomeMainDiv = styled.div`
     text-align: center;
     align-items: center;
     gap: 3rem;
-    height: 100vh;
     width: 100%;
 
     @media (min-width: 720px) {
@@ -71,6 +69,11 @@ export const HomeMainDiv = styled.div`
       justify-content: center;
       align-items: center;
       gap: 1rem;
+      margin-top: 32px;
+
+      @media (min-width: 450px) {
+        margin-top: 0;
+      }
 
       img {
         width: 50px;
