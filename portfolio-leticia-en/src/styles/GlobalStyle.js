@@ -20,10 +20,12 @@ export const theme = createTheme({
     primary: {
       main: "#eb5757",
     },
+
     secondary: {
       main: "#ffffff",
     },
   },
+
   typography: {
     fontFamily: "Montserrat",
   },

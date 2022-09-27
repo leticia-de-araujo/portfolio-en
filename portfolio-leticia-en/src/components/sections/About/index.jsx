@@ -108,7 +108,8 @@ const About = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={800}
+                  offset={-58}
                   className="email"
                 >
                   email

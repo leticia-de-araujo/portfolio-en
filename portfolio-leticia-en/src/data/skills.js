@@ -79,7 +79,7 @@ const skills = [
   },
   {
     id: 13,
-    skillName: "Git e GitHub",
+    skillName: "Git and GitHub",
     img: SiGit,
   },
 ];
