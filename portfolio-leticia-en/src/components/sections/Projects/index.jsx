@@ -7,13 +7,12 @@ import { v4 as uuidv4 } from "uuid";
 const Projects = () => {
   return (
     <StyledDiv className="projects">
-      <Fade bottom>
         <div className="projects-innerDiv">
           <div className="projects-title">
-            <Fade left duration={1200}>
-              <h2>Projetos</h2>
+            <Fade left duration={1000}>
+              <h2>Projects</h2>
             </Fade>
-            <Fade right duration={1200}>
+            <Fade right duration={1000}>
               <Divider className="divider" />
             </Fade>
           </div>
@@ -89,7 +88,6 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </Fade>
     </StyledDiv>
   );
 };

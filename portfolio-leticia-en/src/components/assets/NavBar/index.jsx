@@ -196,7 +196,6 @@ const NavBar = () => {
               bgcolor: " #070707",
               boxSizing: "border-box",
               width: "100%",
-              height: "5rem",
             },
           }}
         >

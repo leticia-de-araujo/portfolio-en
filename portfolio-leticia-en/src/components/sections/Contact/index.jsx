@@ -9,10 +9,10 @@ const Contact = () => {
     <StyledDiv className="contact">
       <div className="contact-innerDiv">
         <div className="contact-title">
-          <Fade left duration={1200}>
+          <Fade left duration={1000}>
             <h2>Contato</h2>
           </Fade>
-          <Fade right duration={1200}>
+          <Fade right duration={1000}>
             <Divider className="divider" />
           </Fade>
         </div>
