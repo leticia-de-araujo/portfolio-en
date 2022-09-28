@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-title">
             <Fade left duration={1000}>
-              <h2>Sobre</h2>
+              <h2>About me</h2>
             </Fade>
             <Fade right duration={1000}>
               <Divider className="divider" />
@@ -23,34 +23,32 @@ const About = () => {
 
           <div className="about-textAndLottie">
             <div className="about-text">
-              <h3>Um pouco mais sobre mim</h3>
+              <h3>Hey, my name is Letícia!</h3>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                Sou uma Desenvolvedora Full-Stack | Front-End | Back-End,
-                determinada em aprender um pouco mais a cada dia.
+                I'm a Full-Stack | Front-End | Back-End Developer,
+                focused on learning a little more each day.
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                Eu cursava faculdade de medicina na UFPR, até perceber que a
-                área que eu realmente amava era a de programação!
+                I'm a former med student who realized that what I actually loved to do was coding!
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                Eu estou me especializando em Desenvolvimento Web Full-Stack no
-                curso de 2000 horas na{" "}
+                I am studying Full-Stack Web Development in the 2000-hour course at{" "}
                 <a
                   href="https://kenzie.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="kenzie"
                 >
-                  Kenzie Academy Brasil
+                  Kenzie Academy Brazil
                 </a>
                 .
               </p>
@@ -58,31 +56,29 @@ const About = () => {
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                Os meus projetos atuais foram construídos em JavaScript,
-                React.js, Node.js/Express e TypeScript.
+                My current projects were developed in JavaScript, React.js, Node.js, Express and TypeScript.
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                Atualmente, estou estudando Python e Django. Então, irei
-                adicionar projetos também com essas tecnologias aqui em breve.
+                I am currently studying Python and Django. So, I'll add projects with these technologies here as well soon.
               </p>
               <div className="typewriter">
                 <p className="typewriter-start">
                   <span role="img" aria-label="stars">
                     ✨
                   </span>{" "}
-                  Eu amo
+                  I love
                 </p>
                 <Typewriter
                   options={{
                     strings: [
-                      "aprender novas tecnologias.",
-                      "resolver problemas complexos.",
-                      "solucionar bugs difíceis de resolver.",
-                      "experimentar coisas novas.",
-                      "colaborar com outras pessoas.",
+                      "learning new technologies.",
+                      "solving complex problems.",
+                      "fixing hard-to-fix bugs.",
+                      "trying new things.",
+                      "collaborating with others.",
                     ],
                     autoStart: true,
                     loop: true,
@@ -90,20 +86,16 @@ const About = () => {
                 />
               </div>
               <p>
-                Em resumo, eu sou uma Desenvolvedora Web criativa, determinada e
-                esforçada procurando pela minha primeira oportunidade na área
-                tech. Caso você queria{" "}
-                <span className="hire-me">me contratar</span>, ou apenas entrar
-                em contato comigo, você pode me encontrar no{" "}
+              I'm an innovative, determined, and hard-working web developer looking for my first career opportunity in tech. If you would like to get in touch with me, you can find me at{" "}
                 <a
-                  href="https://www.linkedin.com/in/leticia-de-araujo-nunes"
+                  href="https://www.linkedin.com/in/leticia-de-araujo-nunes/?locale=en_US"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="linkedin"
                 >
                   Linkedin
                 </a>{" "}
-                ou via{" "}
+                or via{" "}
                 <Link
                   to="contact"
                   spy={true}
@@ -119,7 +111,7 @@ const About = () => {
               <Divider className="divider-2" />
               <p className="location">
                 <LocationOnOutlinedIcon sx={{ fontSize: "1.2rem" }} />
-                Curitiba, Brasil
+                Curitiba, Brazil
               </p>
             </div>
             <div className="lottie">

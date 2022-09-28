@@ -90,12 +90,12 @@ const ContactForm = () => {
         <form onSubmit={sendEmail} ref={form}>
           <TextField
             variant="filled"
-            label="Nome"
+            label="Name"
             name="from_name"
             value={nameText}
             onChange={handleNameChange}
             error={fromNameError ? true : false}
-            helperText={fromNameError ? "Insira seu nome, por favor." : null}
+            helperText={fromNameError ? "Please, enter your name." : null}
             sx={{
               bgcolor: "#292929",
               borderRadius: "4px 4px 0 0 ",
@@ -109,7 +109,7 @@ const ContactForm = () => {
             value={emailText}
             onChange={handleEmailChange}
             error={fromEmailError ? true : false}
-            helperText={fromEmailError ? "Insira seu email, por favor." : null}
+            helperText={fromEmailError ? "Please, enter your email." : null}
             sx={{
               bgcolor: "#292929",
               borderRadius: "4px 4px 0 0 ",
@@ -118,12 +118,12 @@ const ContactForm = () => {
           />
           <TextField
             variant="filled"
-            label="Mensagem"
+            label="Message"
             name="message"
             value={messageText}
             onChange={handleMessageChange}
             error={messageError ? true : false}
-            helperText={messageError ? "Insira uma mensagem, por favor." : null}
+            helperText={messageError ? "Please, enter a message." : null}
             multiline
             rows={5}
             sx={{
@@ -133,7 +133,7 @@ const ContactForm = () => {
             }}
           />
           <Button variant="contained" sx={{ width: "100%" }} type="submit">
-            Enviar
+            Submit
           </Button>
 
           <Collapse in={openSuccess}>
@@ -153,7 +153,7 @@ const ContactForm = () => {
               }
               sx={{ mb: 1 }}
             >
-              Obrigada por entrar em contato!
+              Thanks for getting in touch!
             </Alert>
           </Collapse>
 
@@ -174,7 +174,7 @@ const ContactForm = () => {
               }
               sx={{ mb: 1 }}
             >
-              Ops! Algo deu errado.
+              Ops! Something went wrong.
             </Alert>
           </Collapse>
         </form>

@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="contact-innerDiv">
         <div className="contact-title">
           <Fade left duration={1000}>
-            <h2>Contato</h2>
+            <h2>Contact</h2>
           </Fade>
           <Fade right duration={1000}>
             <Divider className="divider" />
@@ -27,7 +27,7 @@ const Contact = () => {
               <SvgIcon component={SiGithub} />
             </a>
             <a
-              href="https://www.linkedin.com/in/leticia-de-araujo-nunes"
+              href="https://www.linkedin.com/in/leticia-de-araujo-nunes/?locale=en_US"
               target="_blank"
               rel="noopener noreferrer"
             >
