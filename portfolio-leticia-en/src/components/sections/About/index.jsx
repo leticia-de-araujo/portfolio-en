@@ -28,20 +28,22 @@ const About = () => {
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                I'm a Full-Stack | Front-End | Back-End Developer,
-                focused on learning a little more each day.
+                I'm a Full-Stack | Front-End | Back-End Developer, focused on
+                learning a little more each day.
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                I'm a former med student who realized that what I actually loved to do was coding!
+                I'm a former med student who realized that what I actually loved
+                to do was coding!
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                I am studying Full-Stack Web Development in the 2000-hour course at{" "}
+                I am studying Full-Stack Web Development in the 2000-hour course
+                at{" "}
                 <a
                   href="https://kenzie.com.br/"
                   target="_blank"
@@ -56,13 +58,15 @@ const About = () => {
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                My current projects were developed in JavaScript, React.js, Node.js, Express and TypeScript.
+                My current projects were developed in JavaScript, React.js,
+                Node.js, Express and TypeScript.
               </p>
               <p>
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                I am currently studying Python and Django. So, I'll add projects with these technologies here as well soon.
+                I am currently studying Python and Django. So, I'll add projects
+                with these technologies here as well soon.
               </p>
               <div className="typewriter">
                 <p className="typewriter-start">
@@ -86,7 +90,9 @@ const About = () => {
                 />
               </div>
               <p>
-              I'm an innovative, determined, and hard-working web developer looking for my first career opportunity in tech. If you would like to get in touch with me, you can find me at{" "}
+                I'm an innovative, determined, and hard-working web developer
+                looking for my first career opportunity in tech. If you'd like
+                to get in touch with me, you can find me on{" "}
                 <a
                   href="https://www.linkedin.com/in/leticia-de-araujo-nunes/?locale=en_US"
                   target="_blank"

@@ -37,7 +37,7 @@ const Home = () => {
               </Bounce>
 
               <h1>
-                Hey, I'm <span className="name">Letícia Araújo</span>
+                Hello, I'm <span className="name">Letícia Araújo</span>
                 <span
                   className="wave-emoji"
                   role="img"
