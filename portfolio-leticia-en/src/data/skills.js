@@ -13,6 +13,9 @@ import {
   SiExpress,
   SiPostgresql,
   SiJest,
+  SiPython,
+  SiDjango,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const skills = [
@@ -34,51 +37,66 @@ const skills = [
   { id: 3, skillName: "React.js", img: SiReact },
   {
     id: 4,
+    skillName: "Next.js",
+    img: SiNextdotjs,
+  },
+  {
+    id: 5,
     skillName: "Redux",
     img: SiRedux,
   },
   {
-    id: 5,
+    id: 6,
     skillName: "Material UI",
     img: SiMaterialui,
   },
   {
-    id: 6,
+    id: 7,
     skillName: "Styled Components",
     img: SiStyledcomponents,
   },
   {
-    id: 7,
+    id: 8,
     skillName: "TypeScript",
     img: SiTypescript,
   },
   {
-    id: 8,
+    id: 9,
     skillName: "Node.js",
     img: SiNodedotjs,
   },
   {
-    id: 9,
+    id: 10,
     skillName: "Express",
     img: SiExpress,
   },
   {
-    id: 10,
+    id: 11,
     skillName: "PostgreSQL",
     img: SiPostgresql,
   },
   {
-    id: 11,
+    id: 12,
     skillName: "Jest",
     img: SiJest,
   },
   {
-    id: 12,
+    id: 13,
+    skillName: "Python",
+    img: SiPython,
+  },
+  {
+    id: 14,
+    skillName: "Django",
+    img: SiDjango,
+  },
+  {
+    id: 15,
     skillName: "Docker",
     img: SiDocker,
   },
   {
-    id: 13,
+    id: 16,
     skillName: "Git and GitHub",
     img: SiGit,
   },

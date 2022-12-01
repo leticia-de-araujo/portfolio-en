@@ -28,8 +28,8 @@ const About = () => {
                 <span role="img" aria-label="stars">
                   ✨
                 </span>{" "}
-                I'm a Full-Stack | Front-End | Back-End Developer, focused on
-                learning a little more each day.
+                I'm a Full-Stack | Back-End Developer, focused on learning a
+                little more each day.
               </p>
               <p>
                 <span role="img" aria-label="stars">
@@ -59,14 +59,7 @@ const About = () => {
                   ✨
                 </span>{" "}
                 My current projects were developed in JavaScript, React.js,
-                Node.js, Express and TypeScript.
-              </p>
-              <p>
-                <span role="img" aria-label="stars">
-                  ✨
-                </span>{" "}
-                I am currently studying Python and Django. So, I'll add projects
-                with these technologies here as well soon.
+                Node.js (Express), TypeScript and Python (Django).
               </p>
               <div className="typewriter">
                 <p className="typewriter-start">
@@ -90,9 +83,9 @@ const About = () => {
                 />
               </div>
               <p>
-                I'm an innovative, determined, and hard-working web developer
-                looking for my first career opportunity in tech. If you'd like
-                to get in touch with me, you can find me on{" "}
+                I'm a Web Developer passionate about developing efficient,
+                secure and user-focused applications. If you'd like to get in
+                touch with me, you can find me on{" "}
                 <a
                   href="https://www.linkedin.com/in/leticia-de-araujo-nunes/?locale=en_US"
                   target="_blank"
