@@ -28,7 +28,7 @@ export const projects = [
       "Material UI",
       "Mobile-first",
     ],
-    liveDemo: "https://metalsul.net.br/",
+    liveDemo: "https://metal-sul.vercel.app/",
     gitHub: "https://github.com/leticia-de-araujo/metal-sul",
   },
   {
